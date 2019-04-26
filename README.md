@@ -26,13 +26,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+Everything in Express is essentially middleware. Express allows you to create server-side routing.
+
 - [ ] Describe Middleware?
+
+In the context of Express, Middleware is a way to extend the functionality.
 
 - [ ] Describe a Resource?
 
+A resource is an object being served by the API.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+The API can return a status code of 200, or it could return a message stating the request was successful.
+
 - [ ] How can we partition our application into sub-applications?
+
+Through separation of concerns. Keeping the routers out of the overall `index.js` file.
 
 ## Project Setup
 
