@@ -1,7 +1,10 @@
 const express = require('express');
 const server = express();
+const actionsRouter = require('./routers/actions-router');
 
 server.use(express.json());
+
+server.use('/api/actions', actionsRouter)
 
 server.get('/', (req, res) => {
     res.status(200).send('This is my homepage')
